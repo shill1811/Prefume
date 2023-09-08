@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 50vw;
+  height: 80vh;
+  background-color: antiquewhite;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-end-end-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px;
+}
+img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.header {
+  min-height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: hsl(228, 12%, 48%);
+  font-family: Georgia;
+  letter-spacing: 3px;
+  font-size: larger;
+}
+
+.brand-name {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.info {
+  align-items: stretch;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: hsl(228, 12%, 48%);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500px;
+  line-height: 1.8em;
+  display: flex;
+  flex-wrap: wrap;
+  word-spacing: 3px;
+}
+
+.active {
+  padding: 10px;
+  background: rgb(1, 31, 1);
+  margin: 20px 80px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 7px;
+  left: 5%;
+  width: 200px;
+  text-align: center;
+}
+
+.flier-content .amount {
+  margin-left: 50px;
+  margin-right: 50px;
+  word-spacing: 10px;
+  position: relative;
+}
+
+.new {
+  color: hsl(158, 36%, 37%);
+  text-decoration: double;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.old {
+  text-decoration: line-through;
+  font-size: small;
+  vertical-align: super;
+  color: hsl(228, 12%, 48%);
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
